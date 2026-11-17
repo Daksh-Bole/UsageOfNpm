@@ -1,0 +1,14 @@
+{
+  "name": "awaitfall-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A hands-on demo of async performance tracing with awaitfall",
+  "scripts": {
+    "demo": "node src/demo.mjs",
+    "demo:parallel": "node src/parallel.mjs"
+  },
+  "dependencies": {
+    "awaitfall": "^0.1.0"
+  }
+}
